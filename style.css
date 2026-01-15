@@ -4,6 +4,9 @@
 
 @layer components {
 
+    article {
+
+    }
     .container {
         @apply grid grid-cols-1 gap-10 pb-6 justify-items-center md:grid-cols-3
     }
