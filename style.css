@@ -11,7 +11,7 @@
         @apply bg-zinc-200 p-4 space-y-4
     }
     .container > article {
-        @apply bg-slate-100 rounded-xl border-2 mb-6 drop-shadow-xl active:scale-95 hover:scale-105 transition;
+        @apply bg-slate-100 rounded-xl border-2 mb-6 drop-shadow-xl max-w-md active:scale-95 hover:scale-105 transition;
     }
     .container {
         @apply grid grid-cols-1 justify-items-center pb-6 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-full

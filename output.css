@@ -612,6 +612,7 @@ body {
 
 .container > article {
   margin-bottom: 1.5rem;
+  max-width: 28rem;
   border-radius: 0.75rem;
   border-width: 2px;
   --tw-bg-opacity: 1;
@@ -832,11 +833,6 @@ section {
 
 .leading-5 {
   line-height: 1.25rem;
-}
-
-.text-slate-600 {
-  --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
