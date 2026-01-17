@@ -4,11 +4,20 @@
 
 @layer components {
 
-    article {
-
+    article h4 {
+        @apply text-slate-900 text-2xl my-2 font-semibold
+    }
+    body {
+        @apply bg-zinc-200 p-4 space-y-4
+    }
+    .container > article {
+        @apply bg-slate-100 rounded-xl border-2 mb-6 drop-shadow-xl active:scale-95 hover:scale-105 transition;
     }
     .container {
-        @apply grid grid-cols-1 justify-items-center pb-6 md:grid-cols-3
+        @apply grid grid-cols-1 justify-items-center pb-6 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-full
+    }
+    .description {
+        @apply p-8 space-y-2
     }
     h1 {
         @apply text-4xl font-bold text-cyan-800 my-2
@@ -24,6 +33,12 @@
     }
     li {
         @apply ml-6 list-disc
+    }
+    main {
+        @apply space-y-6
+    }
+    .description p {
+        @apply text-slate-600
     }
     p {
         @apply py-2
