@@ -44,7 +44,7 @@
         @apply grid grid-cols-1 justify-items-center pb-6 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-full
     }
     .container > article {
-        @apply bg-zinc-700 rounded-xl border-2 border-zinc-600 mb-6 drop-shadow-xl max-w-md hover:border-green-400 active:scale-95 transition
+        @apply bg-zinc-700 rounded-xl border-2 border-zinc-600 mb-6 drop-shadow-xl max-w-md hover:border-green-400 active:border-green-800 transition
     }
     article h4 {
         @apply text-white text-2xl my-2 font-semibold
@@ -68,7 +68,7 @@ header::after {
     left: 50%;
     transform: translateX(-50%);
     height: 2px;
-    background-color: #64FFDA;
+    background-color: #00c573;
     border-radius: 2px;
     animation: radar-pulse 3s ease-in-out infinite;
 }

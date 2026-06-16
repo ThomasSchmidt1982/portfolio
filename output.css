@@ -746,9 +746,8 @@ button:hover {
 }
 
 .container > article:active {
-  --tw-scale-x: .95;
-  --tw-scale-y: .95;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-border-opacity: 1;
+  border-color: rgb(22 101 52 / var(--tw-border-opacity, 1));
 }
 
 article h4 {
@@ -891,7 +890,7 @@ header::after {
   left: 50%;
   transform: translateX(-50%);
   height: 2px;
-  background-color: #64FFDA;
+  background-color: #00c573;
   border-radius: 2px;
   animation: radar-pulse 3s ease-in-out infinite;
 }
