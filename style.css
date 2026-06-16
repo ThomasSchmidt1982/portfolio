@@ -68,7 +68,7 @@ header::after {
     left: 50%;
     transform: translateX(-50%);
     height: 2px;
-    background-color: #00c573;
+    background-color: #4ADE80;
     border-radius: 2px;
     animation: radar-pulse 3s ease-in-out infinite;
 }
